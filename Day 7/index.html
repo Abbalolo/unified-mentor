@@ -3,42 +3,42 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/lesson 3/index.css">
-    <title>Day 3</title>
+    <link rel="stylesheet" href="/Day 7/index.css">
+    <title>Day 7</title>
 </head>
 <body>
     <h1>Ibrahim Lawal Abba</h1>
-    <p>Am a unified mentor web developer intern and this is Day two </p>
+    <p>Am a unified mentor web developer intern, and this is Day 7</p>
     
     <!-- link -->
     <a href="https://ibrahimlawalabba.netlify.app">Go to my portfolio</a>
 
-   
     <!-- forms -->
-
-    <form >
+    <form id="myForm">
         <h2>My Form</h2>
         <div class="input-con">
             <label for="fullName">Full Name</label>
-            <input type="text" name="fullName" id="fullName" placeholder="Enter Full Name">
+            <input type="text" name="fullName" id="fullName" placeholder="Enter Full Name" required>
         </div>
         <div class="input-con">
             <label for="userName">UserName</label>
-            <input type="text" name="username" placeholder="Enter Username">
+            <input type="text" name="username" placeholder="Enter Username" required>
         </div>
         <div class="input-con">
             <label for="name">Email</label>
-            <input type="email" name="" placeholder="Enter email">
+            <input type="email" name="email" placeholder="Enter email" required>
         </div>
         <div class="input-con">
             <label for="password">Password</label>
-            <input type="password" name="password" placeholder="Enter Password">
+            <input type="password" name="password" placeholder="Enter Password" required>
         </div>
         <div class="input-con">
             <label for="cpassword">Confirm Password</label>
-            <input type="password" name="cpassword" placeholder="Enter Confirm Password">
+            <input type="password" name="cpassword" placeholder="Enter Confirm Password" required>
         </div>
-        <button type="submit">Submit</button>
+        <button type="button" onclick="validateForm()">Submit</button>
     </form>
+
+    <script src="/Day 7/index.js"></script>
 </body>
 </html>
